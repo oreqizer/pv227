@@ -1,0 +1,18 @@
+Zdroje textur:
+
+- lenna.jpg
+	- :-)
+- wood.jpg
+	- TODO Myslím, že examply z Microsoft DirectX SDK.
+	- Tak ne, example z Microsoft SDK to není
+- star.png
+	- Texture downloaded from http://learningwebgl.com/blog/?p=1008
+- meadow skybox
+	- Nevím
+- miramar skybox
+	- http://www.zfight.com/misc/images/textures/envmaps/miramar_large.jpg
+	- http://www.zfight.com/misc/files/textures/envmap_miramar.rar
+- Chesterfield - Well Preserved Chesterfield
+	- http://kay-vriend.blogspot.cz/2012/11/well-preserved-chesterfield.html#!/2012/11/well-preserved-chesterfield.html
+- Mask.png
+	- created by ourselves

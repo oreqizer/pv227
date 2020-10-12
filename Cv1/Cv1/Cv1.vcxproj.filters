@@ -1,0 +1,85 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Geometries">
+      <UniqueIdentifier>{F3564769-758C-433B-9099-4C3BB03B7A84}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Framework">
+      <UniqueIdentifier>{1DEC5E9D-C587-44CA-8294-B052375997F6}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Shaders">
+      <UniqueIdentifier>{B27770B6-2971-4CED-980F-512A487D3954}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Lecture">
+      <UniqueIdentifier>{F71CABC3-94EB-4A26-A47F-8AAA7759799E}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Cv1_main.cpp">
+      <Filter>Lecture</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Framework\PV227_Basics.cpp">
+      <Filter>Framework</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Framework\PV227_UBOs.cpp">
+      <Filter>Framework</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\..\inlines\tangentteapot.inl">
+      <Filter>Geometries</Filter>
+    </None>
+    <None Include="Shaders\notexture_fragment.glsl">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="Shaders\notexture_vertex.glsl">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="Shaders\texture_fragment.glsl">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="Shaders\texture_vertex.glsl">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="Shaders\nolit_fragment.glsl">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="Shaders\nolit_vertex.glsl">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="..\..\inlines\tangentcapsule.inl">
+      <Filter>Geometries</Filter>
+    </None>
+    <None Include="..\..\inlines\tangentcube.inl">
+      <Filter>Geometries</Filter>
+    </None>
+    <None Include="..\..\inlines\tangentcylinder.inl">
+      <Filter>Geometries</Filter>
+    </None>
+    <None Include="..\..\inlines\tangentsphere.inl">
+      <Filter>Geometries</Filter>
+    </None>
+    <None Include="..\..\inlines\tangentteapotpatch.inl">
+      <Filter>Geometries</Filter>
+    </None>
+    <None Include="..\..\inlines\tangenttorus.inl">
+      <Filter>Geometries</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Cv1_main.h">
+      <Filter>Lecture</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Framework\PV227.h">
+      <Filter>Framework</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Framework\PV227_Basics.h">
+      <Filter>Framework</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Framework\PV227_UBOs.h">
+      <Filter>Framework</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,38 @@
+----------------------
+-- Struktura složek --
+----------------------
+
+- PV227                    .. složka tohoto předmetu, použijte nejlépe disk H:\, NEUKLÁDEJTE na plochu
+   - libs                  .. složka, ve které budeme mít knihovny, co budeme používat
+      - GL
+         - *gl*ew.h        .. knihovna GLEW
+         - freeglut*.h     .. knihovna FreeGLUT
+      - glm                .. složka s knihovnou GLM
+      - IL                 .. složka s knihovnou DevIL
+      - AntTweakBar.h                      .. header knihovny AntTweakBar
+      - AntTweakBar.lib, AntTweakBar.dll   .. binárky knihovny AntTweakBar
+      - DevIL.dll, DevIL.lib               .. binárky knihovny DevIL
+      - freeglut.dll, freeglut.lib         .. binárky knihovny FreeGLUT
+      - glew32s.lib                        .. binárky knihovny GLEW
+      - readme.txt                         .. zdroje, kde lze knihovny najít
+   - inlines               .. složka s inline soubory, ve kterých jsou základní geometrie
+      - *.inl
+   - textures              .. složka s texturami
+      - *.jpg, *.png
+   - Framework             .. složka s frameworkem, ve kterém budeme pracovat
+      - PV227.h, PV227_*.h, PV227_*.cpp
+   - Cv1                   .. složka s prvním cvičením
+      - Cv1.sln            .. solution Visual Studia
+      - Cv1                .. další složka Cv1
+         - Cv1.vcxproj, Cv1.vcxproj.filters, Cv1.vcxproj.user
+         - *.h, *.cpp      .. zdrojové kódy C++
+         - Shaders         .. složka se shadery
+            - *.glsl       .. zdrojové kódy shaderů
+   - Repetition
+      - ... podobně jako Cv1
+   - Cv2
+      - ... podobně jako Cv1
+   - Cv3
+      - ... podobně jako Cv1
+   - ...
+   - structure.txt         .. tento soubor
